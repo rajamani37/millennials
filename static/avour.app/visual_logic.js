@@ -337,7 +337,7 @@ _initGlob.output.initOptions.preloaderProgressCb = function(percentage) {
 _initGlob.output.initOptions.preloaderEndCb = function() {
     _initGlob.percentage = 100;
     (function() {
-  setHTMLElemAttribute('innerHTML', 'Enter', 'loading_text', true);
+  setHTMLElemAttribute('innerHTML', 'Step Inside', 'loading_text', true);
   setCSSRuleStyle('display', 'none', '#loading_fill', true, '');
   setCSSRuleStyle('cursor', 'pointer', '#loading_bar', true, '');
   createCSSRule('#loading_bar', 'pointer-events: auto;', true);

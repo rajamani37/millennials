@@ -7,7 +7,7 @@
 	<div id="panel_static_price">Item Price</div>
 	<div class="block">
 		<div id="panel_static_goto_details" class="btn">View</div>
-		<div class="btn">Add Cart</div>
+		<!-- <div class="btn">Add Cart</div> -->
 	</div>
 </div>
 
